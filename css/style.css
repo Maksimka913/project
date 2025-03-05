@@ -1,0 +1,361 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 22px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    width: 1280px;
+    background: #397E66;
+    border: 3px solid black;
+    margin: 0 auto;
+    padding-top: 30px 0px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-ul{
+    display: flex;
+}
+.nav-foto1{
+    width: 139px;
+    height: 130px;
+
+}
+.hero{
+    background: linear-gradient(to bottom left,  #397E66 50%, #550101 50%);
+    width: 100%;
+    height:300px ;
+    border: 3px solid black;
+}
+h1{
+    text-align: center;
+    padding-top: 40px;
+}
+.h2-hero{
+    text-align: center;
+    padding-top: 40px;
+}
+.section1{
+    background: linear-gradient(to bottom left,  #550101 50%, #990202 50%);
+    width: 100%;
+    height:400px ;
+    border: 3px solid black;
+}
+.h2-section1{
+    text-align: center;
+}
+.text{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.section2{
+    background: linear-gradient(to bottom left,  #990202 50%, #550101 50%);
+    width: 100%;
+    height:400px ;
+    border: 3px solid black;
+    text-align: center;
+}   
+.foto-film1{
+    width: 170px;
+    height: 270px;
+}
+.foto-film3{
+    width: 170px;
+    height: 270px;
+}
+.block1{
+    display: flex;
+    justify-content: space-around;
+}
+.film-buttom{
+    background: #397E66;
+    border: 3px solid black;
+}
+.foto-film2{
+    width: 170px;
+    height: 270px;
+}
+.block2{
+    display: flex;
+    justify-content: space-around;
+}
+.section3{
+    background: linear-gradient(to bottom left, #550101  50%, #990202 50%);
+    width: 100%;
+    height:400px ;
+    border: 3px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}   
+.section4{
+    background: linear-gradient(to bottom left, #990202  50%, #550101 50%);
+    width: 100%;
+    height:400px ;
+    border: 3px solid black;
+    text-align: center;
+    display:   flex;
+}   
+.foto-sect3-1{
+    width: 170px;
+    height: 270px;
+}
+.film-love{
+    margin-bottom: 30px;
+}
+.h2-sect3{
+    display: flex;
+}
+.shrek-sect3{
+    display: flex;
+}
+.footer{
+    width: 1280px;
+    height: 300px;
+    background: #397E66;
+    border: 3px solid black;
+}
+.nav-li{
+    padding-right: 20px;
+}
+.movie-card {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    width: 100%;
+    background: linear-gradient(to bottom left, #99020  50%, #550101 50%);
+}
+
+.movie-info {
+    flex: 1;
+    padding: 20px;
+    color: white;
+}
+
+.movie-info h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.movie-info h1 span {
+    color: #32CD32;
+}
+
+.movie-description {
+    font-style: italic;
+    opacity: 0.9;
+}
+
+.movie-poster img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 768px) {
+    .movie-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .movie-poster img {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+.film-section {
+    background: linear-gradient(to bottom left, #550101  50%, #990202 50%);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    width: 100%;
+}
+
+.film-details {
+    flex: 1;
+    padding: 20px;
+    color: white;
+}
+
+.film-details h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.film-details h1 span {
+    color: #FFD700;
+}
+
+.film-description {
+    font-style: italic;
+    opacity: 0.9;
+}
+
+.film-poster img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 768px) {
+    .film-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .film-poster img {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+.cinema-block {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(30, 30, 30, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+   width: 100%;
+    background: linear-gradient(to bottom left, #550101  50%, #990202 50%);
+}
+
+.cinema-info {
+    flex: 1;
+    padding: 20px;
+    color: white;
+}
+
+.cinema-info h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.cinema-info h1 span {
+    color: #FF4500;
+}
+
+.cinema-description {
+    font-style: italic;
+    opacity: 0.9;
+}
+
+.cinema-poster img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .cinema-block {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cinema-poster img {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+.footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #397E66;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+}
+
+.footer-content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+    opacity: 0.8;
+}
+.p-sect2{
+    width: 30%;
+}
+.p-sect1{
+    width: 30%;
+}
+.p-sect3{
+    width: 30%;
+}
+.video{
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to bottom left, #990202  50%, #550101 50%);
+    border: 3px solid black;
+}
+h2{
+    text-align: center;
+}
+
+.box-vid{
+    display: flex;
+    justify-content: space-around;
+}
+.box-1{
+    width: 38%;
+    height: 300px;
+}
+.box-2{
+    width: 40%;
+    height: 300px;
+}
+.video-img{
+    width: 400px;
+    height: 350px;
+}
+.section5{
+    background: linear-gradient(to bottom left, #550101  50%, #990202 50%);
+    width: 100%;
+    height:400px ;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+}   
+.video-imgg{
+    width: 1000px;
+    height: 350px;
+}
+.sect5{
+    padding: 140px;
+    
+}
